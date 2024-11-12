@@ -1,4 +1,4 @@
-Voici un tableau comparatif détaillé entre **MySQL** et **PostgreSQL** pour t’aider dans ton benchmark. Les critères incluent des aspects de performance, de fonctionnalités, de compatibilité, et d’utilisation.
+# CHoix de la base de données
 
 | **Critères**                | **MySQL**                                                                                   | **PostgreSQL**                                                                            |
 |-----------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
@@ -21,3 +21,16 @@ Voici un tableau comparatif détaillé entre **MySQL** et **PostgreSQL** pour t�
 | **Facilité d'apprentissage**| Simple pour les débutants grâce à une documentation claire                                  | Plus complexe pour les novices, mais très puissant pour les utilisateurs avancés        |
 | **Cas d'utilisation**       | Applications web légères, blogs, forums, CRM                                               | Analytique, data warehouses, bases de données géographiques, applications lourdes       |
 
+
+## Définition MERISE
+
+L'acronyme **MERISE** signifie **Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise**.
+
+MERISE est une méthode de modélisation des systèmes d’information, principalement utilisée dans le développement de bases de données. Elle repose sur la séparation des données et des traitements, en intégrant plusieurs niveaux de modélisation (conceptuel, logique, physique). Voici les étapes clés de la méthode MERISE :
+
+- **Modèle Conceptuel des Données (MCD)** : Représente les données de manière abstraite en identifiant les entités, leurs attributs et les relations entre elles.
+
+- **Modèle Logique des Données (MLD)** : Traduit le MCD dans un modèle plus proche de la structure d'une base de données relationnelle, en définissant les tables et les clés.
+
+- **Modèle Physique des Données (MPD)** : Correspond à l'implémentation de la base de données sur un système de gestion de base de données (SGBD) spécifique, en tenant compte des contraintes physiques et techniques.
+La méthode MERISE permet ainsi de structurer et de formaliser la conception d’un système d’information en offrant une approche méthodique pour la modélisation des données et des traitements.
